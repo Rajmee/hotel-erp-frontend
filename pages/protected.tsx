@@ -1,0 +1,3 @@
+Protected.auth = {
+    role: "author",
+  };

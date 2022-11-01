@@ -1,0 +1,146 @@
+/* .action li{
+    display: inline-block;
+    float: left;
+    padding: 0 2px;
+} */
+
+/* .action ul{
+  list-style: none outside none; margin:0; padding: 0; text-align: center;
+}
+.action li{
+  display:inline; margin: 0 10px; border:1px solid #ccc;
+} */
+
+ul {
+  list-style: none outside none;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+li {
+  display: inline-block;
+  margin: 0 2px;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0;
+}
+
+.box div {
+  width: 100px;
+  height: 100px;
+}
+
+/* card */
+.card {
+  margin-bottom: 30px !important;
+  border-radius: 16px !important;
+  overflow: hidden !important;
+}
+
+.modal-content {
+  border-radius: 16px !important;
+}
+
+/* Custom Css */
+.custom-dialog {
+  width: 60%;
+}
+
+label img {
+  height: 100px;
+  width: 100px;
+  transition-duration: 0.2s;
+  transform-origin: 50% 50%;
+  border-radius: 5px;
+}
+
+:checked + label img {
+  transform: scale(0.9);
+  box-shadow: 0 0 5px #333;
+  z-index: -1;
+  border: 1px solid red;
+  padding: 5px;
+}
+
+/* room dashboard checkbox */
+
+label span {
+  height: 30px;
+  width: 100px;
+  transition-duration: 0.5s;
+  transform-origin: 40% 40%;
+}
+
+:checked + label span {
+  transform: scale(0.9);
+  box-shadow: 0 0 8px #5218f2;
+  z-index: -1;
+  border-color: red;
+  background-color: red;
+}
+
+.flex-gap {
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+
+.flex-gap > div {
+  margin: 6px;
+}
+
+.custom-badge {
+  height: 40px !important;
+  padding: 10px 10px !important;
+}
+
+/* Pagination */
+.page-item .page-link {
+  border-radius: 50%;
+}
+
+/* Custom checkbox */
+.available:checked {
+  background-color: #0acc95 !important;
+  overflow: hidden !important;
+}
+
+.free:checked {
+  background-color: #186dde !important;
+  overflow: hidden !important;
+}
+
+.occupied:checked {
+  background-color: #ef5350 !important;
+  overflow: hidden !important;
+}
+
+.dirty:checked {
+  background-color: #7460ee !important;
+  overflow: hidden !important;
+}
+
+.cleaning:checked {
+  background-color: #545b62 !important;
+  overflow: hidden !important;
+}
+
+.reserved:checked {
+  background-color: #ffb22b !important;
+  overflow: hidden !important;
+}
+
+.maintenance:checked {
+  background-color: #99abb4 !important;
+  overflow: hidden !important;
+}
+
+.form-check {
+  display: block;
+  min-height: 1.40625rem;
+  padding-left: 1.875em;
+  margin-bottom: 0.125rem;
+}

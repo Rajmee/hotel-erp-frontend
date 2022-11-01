@@ -1,0 +1,64 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+#Server
+/server/controller
+/hotel-fr.zip
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+.env.local
+# testing
+/coverage
+/unused-deps.txt
+/pages/myTestFolder
+/.jshintrc
+# next.js
+/.next/
+/out/
+/local.setting.json
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+/test
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+yarn.lock
+package-lock.json
+/pages/test
+next.config.ts
+
+# local env files
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+
+
+#Extra
+ok_pack
+my_pack
+ack.txt
+removeUnusedDeps.sh
+
+#test folder
+pages/test
+
+./unused-deps.txt
+tsconfig.json
+pages/modules/roomManagement/room/index copy.js
+<<<<<<< HEAD
+.vscode/launch.json
+=======
+.vscode/launch.json
+hotel-frontend.7z
+>>>>>>> 1c6fa777cc54fc4a5ad028bbddbff7d200d2bf95

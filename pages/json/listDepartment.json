@@ -1,0 +1,11 @@
+{
+        "listDepartment":[
+	   {
+            "department_name": "Bar",
+            "department_description": "Entertainment",
+            "department_status": "active",
+            "created_by": "admin",
+            "created_at":"22 May 2022"
+	   }
+	]
+}
